@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:layout_margin="16dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intro to Psychology:"
+            android:textSize="30dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psychology is the scientific study of the human mind and its functions, especially those affecting behavior in a given context.\n\nWilhelm Wundt founded psychology in 1879 at University of Lepzig, Germany.\n\nThere were many different perspective in psychology, but here are the main ones:"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <com.synicix.psychologytutorial.TouchImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/perspective_chart"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

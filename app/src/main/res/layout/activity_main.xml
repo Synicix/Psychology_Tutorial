@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/feat_background"
+        android:scaleType="centerCrop"/>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction Psychology Review"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:fontFamily="georgia"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="#b0000000"/>
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Quiz"
+                android:fontFamily="georgia"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textColor="#ffffff"
+                android:id="@+id/buttonQuiz"
+                android:background="#b0000000"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Review"
+                android:fontFamily="georgia"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:background="#b0000000"
+                android:id="@+id/buttonReview"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
