@@ -106,11 +106,12 @@
 
                 <Button
                     android:layout_width="100dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:text="Submit"
                     android:id="@+id/submitButton"
-                    android:background="#202020"
+                    android:background="@drawable/submit_background"
                     android:textColor="#ffffff"
+                    android:layout_marginLeft="5dp"
                     android:textSize="20dp"
                     android:layout_weight="0"/>
 
